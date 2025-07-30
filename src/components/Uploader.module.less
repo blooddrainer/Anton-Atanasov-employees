@@ -1,0 +1,73 @@
+.dropZone {
+  border: 2px dashed #cccccc;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  background: #f8f8f8;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &.dragActive {
+    border-color: #2196f3;
+    background: #e3f2fd;
+  }
+
+  &.dragReject {
+    border-color: #ff1744;
+    background: #ffebee;
+  }
+}
+
+.dropZoneText {
+  margin: 0;
+  color: #666666;
+  font-size: 16px;
+
+  .dragActive & {
+    color: #2196f3;
+  }
+
+  .dragReject & {
+    color: #ff1744;
+  }
+}
+
+.icon {
+  font-size: 48px;
+  color: #999999;
+  margin-bottom: 8px;
+
+  .dragActive & {
+    color: #2196f3;
+  }
+
+  .dragReject & {
+    color: #ff1744;
+  }
+}
+
+.button {
+  margin-top: 16px;
+  padding: 8px 16px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #1976d2;
+  }
+
+  &:active {
+    background-color: #1565c0;
+  }
+}
+

@@ -1,0 +1,15 @@
+{
+  "uploader": {
+    "drop_csv_file_here": "Drop CSV file here",
+    "invalid_file_type": "Invalid file type",
+    "drag_n_drop_file_here": "Drag & drop CSV file here or click to select",
+    "select_file": "Select File"
+  },
+  "datatable": {
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "label": "Page {{current}} of {{total}}"
+    }
+  }
+}
